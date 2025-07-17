@@ -15,7 +15,7 @@ export default function Navbar({section_ref}: NavbarProps) {
 
     return (
         <div className="z-10 w-full fixed top-0 left-0 flex flex-row justify-between p-4 md:px-20 items-center bg-zinc-950 border-b-1 border-gray-500">
-            <img src="/your_logo.svg" alt='your logo' className='w-50'></img>
+            <img src="/portofolio1/your_logo.svg" alt='your logo' className='w-50'></img>
             <div className='hidden md:flex lg:flex flex-row justify-center gap-8'>
                 <TextNavbar 
                     page_name='Collections'
