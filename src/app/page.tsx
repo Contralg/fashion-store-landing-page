@@ -27,7 +27,7 @@ export default function Home() {
       />
 
       {/* Hero Section */}
-      <div className="flex flex-col min-h-dvh md:flex-row md:justify-center relative mt-16 py-10 items-center text-center text-pretty gap-4 bg-zinc-950 bg-[url(/bg_image.jpg)]">
+      <div className="flex flex-col min-h-dvh md:flex-row md:justify-center relative mt-16 py-10 items-center text-center text-pretty gap-4 bg-zinc-950 bg-[url(/portofolio1/bg_image.jpg)]">
         <div className="absolute w-30 h-30 bg-red-300 rounded-full -left-14 top-40 z-0 blur-3xl opacity-25"></div>
         <div className="z-1 flex flex-col gap-4 text-center items-center md:text-left px-4 md:w-[50%] md:items-start">
           <div className="font-extrabold text-5xl md:text-7xl lg:text-8xl text-shadow-lg text-gray-100">Future of Fashion</div>
@@ -38,9 +38,9 @@ export default function Home() {
           <button type="button" className="cursor-pointer rounded-full ring-1 ring-gray-400 px-6 py-2 font-semibold transition-all ease-in-out delay-100 duration-300 bg-zinc-400 hover:-translate-y-1 hover:bg-zinc-700">Learn More</button>
         </div>
         <div className="relative flex flex-row flex-wrap align-middle justify-center w-96 mt-10">
-          <img src="/hero_1.jpg" className="bg-red-400 rounded-3xl w-48 h-60 overflow-hidden z-1 translate-x-8 animate-wiggle-bounce"></img>
-          <img src="/hero_2.jpg" className="bg-teal-400 rounded-3xl w-43 h-55 overflow-hidden z-2 -translate-x-4 translate-y-30 animate-wiggle-bounce"></img>
-          <img src="/hero_3.jpg" className="bg-sky-400 rounded-3xl w-38 h-50 overflow-hidden z-3 animate-wiggle-bounce"></img>
+          <img src="/portofolio1/hero_1.jpg" className="bg-red-400 rounded-3xl w-48 h-60 overflow-hidden z-1 translate-x-8 animate-wiggle-bounce"></img>
+          <img src="/portofolio1/hero_2.jpg" className="bg-teal-400 rounded-3xl w-43 h-55 overflow-hidden z-2 -translate-x-4 translate-y-30 animate-wiggle-bounce"></img>
+          <img src="/portofolio1/hero_3.jpg" className="bg-sky-400 rounded-3xl w-38 h-50 overflow-hidden z-3 animate-wiggle-bounce"></img>
         </div>
       </div>
 
@@ -57,21 +57,21 @@ export default function Home() {
               position="-translate-y-0"
             />
             <CardProductComponent 
-              image_path="/collection_urban.jpg"
+              image_path="/portofolio1/collection_urban.jpg"
               title="Urban Elegance"
               description="Sophisticated pieces that transition seamlessly from day to night."
               price={149}
               position="-translate-y-20"
             />
             <CardProductComponent 
-              image_path="/collection_minimalist.jpg"
+              image_path="/portofolio1/collection_minimalist.jpg"
               title="Minimalist Luxury"
               description="Clean lines and premium materials for the modern minimalist."
               price={199}
               position="scale-140 -translate-y-20"
             />
             <CardProductComponent 
-              image_path="/collection_pieces.jpg"
+              image_path="/portofolio1/collection_pieces.jpg"
               title="Statement Pieces"
               description="Bold designs that make an unforgettable impression."
               price={299}
