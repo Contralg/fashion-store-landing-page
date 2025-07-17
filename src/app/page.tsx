@@ -50,7 +50,7 @@ export default function Home() {
         <div className="font-semibold text-gray-400">Discover our carefully curated collections that define modern luxury and timeless elegance.</div>
         <div className="flex flex-col scale-88 -translate-y-30 md:scale-100 md:-translate-y-0 md:mt-10 md:flex-row flex-wrap gap-10 justify-center">
             <CardProductComponent 
-              image_path="/collection_summer.jpg"
+              image_path="/portofolio1/collection_summer.jpg"
               title="Summer Essentials"
               description="Lightweight fabrics and vibrant colors for the perfect summer wardrobe."
               price={89}
